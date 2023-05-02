@@ -46,7 +46,7 @@ function restrictAlphabet(e) {
     
  }
 
-function change10() {
-  document.getElementById("go").style.opacity = 0;
+// function change10() {
+//   document.getElementById("go").style.opacity = 0;
   
- }
+//  }
