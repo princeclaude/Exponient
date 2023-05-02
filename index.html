@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>     EXPONIENTIAL</title>
+    <link rel="stylesheet" href="exponient.css">
+</head>
+<body>
+    
+    <div id="expo1">
+        <div id="header"><h1>Exponent Converter</h1></div>
+        <label for="base">Input the base</label>
+        <input type="text" name="" id="inp-1" oninput="change1()" onkeypress="return  restrictAlphabet(event)" title="Numbers only"> <br> <br>
+        <label for="ex-val"> Exponent value</label>
+        <input type="text" name="" id="inp-2" onkeypress="return  restrictAlphabet(event)" title="Numbers only" oninput="change10()"><br> <br>
+
+        <button id="go" onclick="go_1()">GO</button>
+        <div id="output">
+
+            <div id="div2">This is your answer: <span id="div3"></span> <br> <br>
+                <button id="back" onclick="back()">BACK</button>
+            </div>
+
+            
+        </div>
+        <div id="error-message">Field can't be empty</div> <br><br>
+
+    </div> <br> <br>
+
+    
+
+    <!-- <label for="add">add song here</label> 
+    <input type="text" id="song1"> <br> <br>
+    <button id="btn" onclick="funke()">add</button> -->
+
+
+
+    
+
+    <script src="exponient.js"></script>
+
+</body>
+</html>
